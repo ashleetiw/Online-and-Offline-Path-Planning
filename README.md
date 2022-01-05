@@ -6,7 +6,7 @@ path planning is generally implemented for static environment or very slowly cha
 mode will be computationally expensive for dynamic environment as it has to re-plan from start -to-goal path
 again making it inefficient and impractical in dynamic environments.
 
-
+[offline]!https://github.com/ashleetiw/Online-and-Offline-Path-Planning/blob/master/images/offline.gif
 
 # Online path planning
 Online here means that the robot does not have a prior knowledge of all the obstacles in the environment.The
@@ -17,3 +17,4 @@ incrementally building an obstacle map.Hence when the robot plans the optimal pa
 which come in the way while planning are only seen in the environment map.Online is preferred in dynamically
 changing environment as path planning is carried out in parallel while the robot moves towards the goal and
 observes the environment including its changes.Hence path is updated as the environment changes.
+[online]!https://github.com/ashleetiw/Online-and-Offline-Path-Planning/blob/master/images/online.gif
