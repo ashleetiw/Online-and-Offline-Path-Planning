@@ -17,4 +17,6 @@ incrementally building an obstacle map.Hence when the robot plans the optimal pa
 which come in the way while planning are only seen in the environment map.Online is preferred in dynamically
 changing environment as path planning is carried out in parallel while the robot moves towards the goal and
 observes the environment including its changes.Hence path is updated as the environment changes.
+
+
 ![online](https://github.com/ashleetiw/Online-and-Offline-Path-Planning/blob/master/images/online.gif)
